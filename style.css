@@ -6,3 +6,48 @@ body {
     align-items: center;
 }
 
+nav {
+    width: 100%;
+    display: flex;
+    height: 60px;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div {
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+}
+
+.TopTitle {
+    text-align: center;
+}
+
+.Image-Container-Container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.Image-Container-Left {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.Image-Container-Right {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.ImageBox {
+    background-color: black;
+    width: 200px;
+    height: 150px;
+    overflow: hidden; 
+}
